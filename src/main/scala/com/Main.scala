@@ -14,6 +14,8 @@ object Main {
 
 	def main(args: Array[String]) = {
 		val e = Event(new LocalDateTime)
+		println(e)
+		println("serialized:")
 		println(pretty(render(decompose(e))))
 	}
 }
